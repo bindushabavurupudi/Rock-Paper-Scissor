@@ -11,12 +11,12 @@ h1{
     width: 100%;
 }
 .choice{
-    width: 23vmin;
+    width: 30vmin;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 23vmin;
+  height: 30vmin;
 }
 .choice:hover{
     transform: scale(1.1);
@@ -25,8 +25,8 @@ h1{
     background-color: grey;
 }
 img{
-    width: 22vmin;
-  height: 22vmin;
+    width: 29vmin;
+  height: 29vmin;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -64,7 +64,7 @@ img{
 #msg{
     background-color: black;
     color: white;
-    font-size: 6vmin;
+    font-size: 4vmin;
     display: inline;
     padding: 3vmin;
     border-radius: 3vmin;
