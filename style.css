@@ -11,12 +11,12 @@ h1{
     width: 100%;
 }
 .choice{
-    width: 30vmin;
+    width: 28vmin;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30vmin;
+  height: 28vmin;
 }
 .choice:hover{
     transform: scale(1.1);
@@ -25,8 +25,8 @@ h1{
     background-color: grey;
 }
 img{
-    width: 29vmin;
-  height: 29vmin;
+    width: 27vmin;
+  height: 27vmin;
   object-fit: cover;
   border-radius: 50%;
 }
