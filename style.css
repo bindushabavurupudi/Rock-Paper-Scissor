@@ -6,17 +6,17 @@ h1{
     background-color: black;
     color: white;
     text-align: center;
-    height: 5rem;
-    line-height: 5rem;
+    height: 15vmin;
+    line-height: 15vmin;
     width: 100%;
 }
 .choice{
-    width: 64vmin;
+    width: 23vmin;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 64vmin;
+  height: 23vmin;
 }
 .choice:hover{
     transform: scale(1.1);
@@ -25,25 +25,25 @@ h1{
     background-color: grey;
 }
 img{
-    width: 63vmin;
-  height: 63vmin;
+    width: 22vmin;
+  height: 22vmin;
   object-fit: cover;
   border-radius: 50%;
 }
 .game{
-    margin-top: 4rem;
+    margin-top: 12vmin;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 6vmin;
 }
 .score-card{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
-    font-size: 2rem;
-    margin-top: 3rem;
+    gap: 15vmin;
+    font-size: 6vmin;
+    margin-top: 6vmin;
 }
 .score{
     display: flex;
@@ -53,10 +53,10 @@ img{
 }
 #user-score, 
 #comp-score{
-    font-size: 3rem;
+    font-size: 6vmin;
 }
 .msg-container{
-    margin-top: 3rem;
+    margin-top: 6vmin;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,9 +64,9 @@ img{
 #msg{
     background-color: black;
     color: white;
-    font-size: 2rem;
+    font-size: 6vmin;
     display: inline;
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 3vmin;
+    border-radius: 3vmin;
 
 }
