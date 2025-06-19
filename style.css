@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-h1{
+
+h1 {
     background-color: black;
     color: white;
     text-align: center;
@@ -10,34 +11,39 @@ h1{
     line-height: 15vmin;
     width: 100%;
 }
-.choice{
+
+.choice {
     width: 28vmin;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 28vmin;
+    height: 28vmin;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.choice:hover{
+
+.choice:hover {
     transform: scale(1.1);
     transition: 0.3s;
     cursor: pointer;
     background-color: grey;
 }
-img{
+
+img {
     width: 27vmin;
-  height: 27vmin;
-  object-fit: cover;
-  border-radius: 50%;
+    height: 27vmin;
+    object-fit: cover;
+    border-radius: 50%;
 }
-.game{
+
+.game {
     margin-top: 12vmin;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5vmin;
 }
-.score-card{
+
+.score-card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,23 +51,27 @@ img{
     font-size: 6vmin;
     margin-top: 6vmin;
 }
-.score{
+
+.score {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#user-score, 
-#comp-score{
+
+#user-score,
+#comp-score {
     font-size: 6vmin;
 }
-.msg-container{
+
+.msg-container {
     margin-top: 6vmin;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#msg{
+
+#msg {
     background-color: black;
     color: white;
     font-size: 4vmin;
