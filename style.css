@@ -8,14 +8,15 @@ h1{
     text-align: center;
     height: 5rem;
     line-height: 5rem;
+    width: 100%;
 }
 .choice{
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 13.5vw;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 13.5vw;
 }
 .choice:hover{
     transform: scale(1.1);
@@ -24,10 +25,10 @@ h1{
     background-color: grey;
 }
 img{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
+    width: 13vw;
+  height: 13vw;
+  object-fit: cover;
+  border-radius: 50%;
 }
 .game{
     margin-top: 4rem;
