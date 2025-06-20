@@ -63,7 +63,10 @@ img {
 #comp-score {
     font-size: 6vmin;
 }
-
+#para{
+    font-size: 4vmin;
+    margin-top: 2vmin;
+}
 .msg-container {
     margin-top: 6vmin;
     display: flex;
